@@ -5,12 +5,13 @@ const osOption = Selector("#windows");
 const submitButton = Selector("#submit-button");
 
 fixture("First Fixture")
-  .page("http://devexpress.github.io/testcafe/example/")
+  .page("http://google.com")
 
-test("First Selector", async done => {
-  await done
-    .typeText(developerName, "TAU")
-    .click(osOption)
-    .click(submitButton);
-})
+test.page("http://devexpress.github.io/testcafe/example/")
+  ("First Selector", async done => {
+    await done
+      .typeText(developerName, "TAU")
+      .click(osOption)
+      .click(submitButton);
+  })
 
