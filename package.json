@@ -1,0 +1,15 @@
+{
+  "name": "e2e-web-testing-with-testcafe",
+  "version": "1.0.0",
+  "description": "Repositorio de estudo de automação e2e com testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "Wenderson Monteiro Da Silva <wendrson22@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "testcafe": "^1.15.3"
+  }
+}
